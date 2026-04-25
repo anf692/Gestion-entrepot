@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+/* Le jaune spécifique pour le titre et le bouton */
+.texte-jaune {
+    color: #FFCE3A;
+}
+
+.btn-jaune {
+    background-color: #FFCE3A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 25px;
+    font-size: 15px;
+    width: 100%;
+    height: 5%;
+    transition: 0.3s;
+}
+
+.btn-jaune:hover {
+    background-color: #e5b833;
+    color: white;
+
+}
+
+/* Style du message de succès */
+.message-succes {
+    color: #2d3748;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* Conteneur de l'image */
+.illustration-container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.illustration-container img {
+    max-height: 350px;
+    width: auto;
+}
