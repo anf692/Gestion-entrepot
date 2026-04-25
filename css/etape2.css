@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Couleurs et styles personnalisés */
+.texte-jaune { color: #FFCA2C; }
+.bg-jaune { background-color: #FFCE3A; color: white; }
+.texte-gris { color: #9ca3af; }
+.bg-gris-froid { background-color: #f8f9fa; }
+
+
+.icone{
+    width: 30px;
+}
+
+
+.card-main {
+    border: 1px solid #eee;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.texte-entete {
+    font-size: 0.8rem;
+}
+
+.texte-corps {
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.texte-partie{
+    font-size: 0.7rem;
+}
+
+.item-row {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.sub-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+}
+
+.btn-outline-custom {
+    border: 1.5px solid #eee;
+    color: #888;
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.btn-terminer {
+    background-color: #FFCE3A;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.btn-terminer:hover, .btn-terminer:focus {
+    background-color: #e5b833;
+    color: white;
+}
+
+.qr-icon {
+    font-size: 1.4rem;
+    color: #666;
+}   
