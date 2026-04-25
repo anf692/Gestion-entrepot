@@ -34,6 +34,17 @@ body {
     z-index: 1;
 }
 
+/* Ligne jaune de progression */
+.stepper-line-active {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 7%; /* La ligne jaune descend jusqu'à la 3ème étape */
+    width: 4px;
+    background-color: #FFCE3A;
+    z-index: 2;
+}
+
 .step-item {
     position: relative;
     z-index: 2;
