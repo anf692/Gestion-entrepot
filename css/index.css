@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Le jaune spécifique du texte et du bouton */
+.couleur-jaune {
+    color: #FFCA2C; 
+}
+.btn-jaune {
+    background-color: #FFCE3A;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+}
+
+/* Effet au clic/survol du bouton */
+.btn-jaune:hover, .btn-jaune:focus {
+    background-color: #e5b833;
+    color: white;
+}
+
+/* Gris clair pour le texte secondaire */
+.texte-gris-clair {
+    color: #b0b0b0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Texte tout en bas */
+.texte-footer {
+    color: #c0c0c0;
+    font-size: 0.75rem;
+}
